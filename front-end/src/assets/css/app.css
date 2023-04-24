@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300&display=swap');
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+* {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Active class for navigation menu */
+.router-link-active,
+.router-link-exact-active {
+	@apply text-primary-text;
+	@apply after:content-[''] after:h-4 after:w-full after:bg-primary-light after:absolute after:bottom-[-3px] after:left-0 after:h-1
+}
+/* Custom Styles Below */
+.carousel,
+.carousel__viewport,
+.carousel__track {
+	@apply h-full;
+}
+
+.carousel .carousel__prev,
+.carousel .carousel__next {
+	@apply rounded-full bg-white;
+}
