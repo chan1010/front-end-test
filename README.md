@@ -1,5 +1,10 @@
 # littlelives- Front-End-challenge
 
+## Clone Respository
+
+```
+git clone https://github.com/chan1010/front-end-test.git
+```
 ## Run server fakerjs
 ```
 cd Server
@@ -9,7 +14,7 @@ cd Server
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles for development
 ```
 npm start
 ```
@@ -23,7 +28,7 @@ cd front-end
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles for development
 ```
 npm run serve
 ```
